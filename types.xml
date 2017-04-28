@@ -114,7 +114,7 @@
                         <parent>ukl:pets</parent>
                     </type>
                     <type name="ukl:petinsurance">
-                        <title>Generic Vet Document</title>
+                        <title>Pet Insurance Document</title>
                         <parent>ukl:pets</parent>
                     </type>
                 <type name="ukl:education">
@@ -132,5 +132,13 @@
                     <type name="ukl:certificate">
                         <title>Certificate</title>
                         <parent>ukl:education</parent>
+                    </type>
+                <type name="ukl:tax">
+                        <title>Generic Tax Document</title>
+                        <parent>ukl:housedoc</parent>
+                </type>
+                    <type name="ukl:hmrc">
+                            <title>Generic HMRC Document</title>
+                            <parent>ukl:tax</parent>
                     </type>
 </types>
