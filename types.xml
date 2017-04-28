@@ -1,0 +1,136 @@
+<types>
+  <type name="ukl:doc">
+            <title>Generic Document</title>
+            <parent>cm:content</parent>
+        </type>
+            <type name="ukl:housedoc">
+                <title>Generic House Document</title>
+                <parent>ukl:doc</parent>
+            </type>
+                <type name="ukl:utility">
+                    <title>Utility Document</title>
+                    <parent>ukl:housedoc</parent>
+                </type>
+                    <type name="ukl:energydoc">
+                        <title>Energy Document</title>
+                        <parent>ukl:utility</parent>
+                    </type>
+                    <type name="ukl:water">
+                        <title>Water Document</title>
+                        <parent>ukl:utility</parent>
+                    </type>
+                    <type name="ukl:counciltax">
+                        <title>Council Tax</title>
+                        <parent>ukl:utility</parent>
+                    </type>
+                <type name="ukl:telecoms">
+                    <title>Generic Telecoms Document</title>
+                    <parent>ukl:housedoc</parent>
+                </type>
+                    <type name="ukl:landline">
+                        <title>Landline Document</title>
+                        <parent>ukl:telecoms</parent>
+                    </type>
+                    <type name="ukl:internet">
+                        <title>Internet Document</title>
+                        <parent>ukl:telecoms</parent>
+                    </type>
+                    <type name="ukl:mobile">
+                        <title>Mobile Phone</title>
+                        <parent>ukl:telecoms</parent>
+                    </type>
+                <type name="ukl:finance">
+                    <title>Generic Finance Document</title>
+                    <parent>ukl:housedoc</parent>
+                </type>
+                    <type name="ukl:statement">
+                        <title>Bank Statement</title>
+                        <parent>ukl:finance</parent>
+                    </type>
+                    <type name="ukl:mortgage">
+                        <title>Mortgage Document</title>
+                        <parent>ukl:finance</parent>
+                    </type>
+                    <type name="ukl:loan">
+                        <title>Loan Document</title>
+                        <parent>ukl:finance</parent>
+                    </type>
+                    <type name="ukl:investment">
+                        <title>Investment Document</title>
+                        <parent>ukl:finance</parent>
+                    </type>
+                    <type name="ukl:pension">
+                        <title>Pension Document</title>
+                        <parent>ukl:finance</parent>
+                    </type>
+                <type name="ukl:motor">
+                    <title>Generic Motor Document</title>
+                    <parent>ukl:housedoc</parent>
+                </type>
+                    <type name="ukl:motorservice">
+                        <title>Motor Servicing</title>
+                        <parent>ukl:motor</parent>
+                    </type>
+                    <type name="ukl:mot">
+                        <title>MOT Document</title>
+                        <parent>ukl:motor</parent>
+                    </type>
+                    <type name="ukl:motortax">
+                        <title>Motor Tax</title>
+                        <parent>ukl:motor</parent>
+                    </type>
+
+                <type name="ukl:health">
+                    <title>Generic Health/Medical Document</title>
+                    <parent>ukl:housedoc</parent>
+                </type>
+                    <type name="ukl:optician">
+                        <title>Generic Optician Document</title>
+                        <parent>ukl:health</parent>
+                    </type>
+                    <type name="ukl:dentist">
+                        <title>Generic Dentist Document</title>
+                        <parent>ukl:health</parent>
+                    </type>
+                    <type name="ukl:gym">
+                        <title>Generic Gym Document</title>
+                        <parent>ukl:health</parent>
+                    </type>
+                    <type name="ukl:nhs">
+                        <title>Generic NHS Document</title>
+                        <parent>ukl:health</parent>
+                    </type>
+                    <type name="ukl:healthinsurance">
+                        <title>Health Insurance</title>
+                        <parent>ukl:health</parent>
+                    </type>
+
+                <type name="ukl:pets">
+                    <title>Generic Pet Document</title>
+                    <parent>ukl:housedoc</parent>
+                </type>
+                    <type name="ukl:vet">
+                        <title>Generic Vet Document</title>
+                        <parent>ukl:pets</parent>
+                    </type>
+                    <type name="ukl:petinsurance">
+                        <title>Generic Vet Document</title>
+                        <parent>ukl:pets</parent>
+                    </type>
+                <type name="ukl:education">
+                    <title>Generic Education Document</title>
+                    <parent>ukl:housedoc</parent>
+                </type>
+                    <type name="ukl:school">
+                        <title>School Document</title>
+                        <parent>ukl:education</parent>
+                    </type>
+                    <type name="ukl:university">
+                        <title>University Document</title>
+                        <parent>ukl:education</parent>
+                    </type>
+                    <type name="ukl:certificate">
+                        <title>Certificate</title>
+                        <parent>ukl:education</parent>
+                    </type>
+</types>
